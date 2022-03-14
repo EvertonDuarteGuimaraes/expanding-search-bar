@@ -44,7 +44,7 @@ body {
     max-width: 500px;
     padding: 1px;
     position: relative;
-    transition: width 290ms cubic-bezier(0.95, -0.5, 0, 1.15);
+    transition: width 420ms cubic-bezier(0.98, -0.2, 0, 1.15);
     overflow: hidden;
 
     &-input {
@@ -59,7 +59,7 @@ body {
         bottom: 0;
         line-height: calc(var(--size) * 0.9);
         opacity: 0;
-        transition: opactity 530ms ease-in-out;
+        transition: opactity 560ms ease-in-out;
         cursor: pointer;
 
         &:focus {
@@ -77,7 +77,7 @@ body {
         width: calc(var(--size) * 0.9);
         height: calc(var(--size) * 0.9);
         margin-left: auto;
-        transition: background 330ms ease-in-out;
+        transition: background 310ms ease-in-out;
         cursor: pointer;
     }
 
